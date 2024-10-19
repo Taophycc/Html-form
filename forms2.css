@@ -1,0 +1,226 @@
+body {
+    background-color: #ccc;
+    
+}
+
+.form-container {
+height: 750px;
+width: 1200px;
+margin-left: 100px;
+margin-top: 100px;
+margin-bottom: 100px;
+display: flex;
+background-color: rgb(18,18,18);
+gap: 3rem;
+font-family: "bricolage grotesque";
+box-shadow: 10px 10px 0px 0px silver;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-start
+
+}
+
+.left-container {
+width: 50%;
+height: 95%;
+background:linear-gradient(to  bottom, #E9EFEC , #C4DAD2 ,#6A9C89, #16423C 80%) ;
+border-radius: 20px;
+margin-top: 20px;
+margin-left: 15px;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+
+.right-container {
+    border: none;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(18,18,18);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+   
+}
+
+#first {
+margin: 55%;
+color: white;
+margin-left: 250px;
+padding: 0;
+font-family: sans-serif;
+margin-bottom: 0;
+}
+
+#second {
+color: white;
+text-align: center;
+margin-top: 0px;
+margin-bottom: 45px;
+}
+
+h1 {
+color: white;
+margin: 0;
+text-align: center;
+padding: 10px;
+font-family: "bricolage grotesque" sans-serif;
+font-size: 30px;
+
+}
+
+button{
+background-color: white ;
+width: 300px;
+height: 55px;
+display: block;
+margin-left: 140px;
+margin-top: 10px;
+border-radius: 10px;
+border: none
+}
+
+button:hover{
+background-color: slategrey;
+}
+
+li{
+color: black;
+margin-left: 20px;
+text-align: left;
+font-size: large;
+font-size: 15px;
+font-size: 20px;
+}
+
+#second-h1 {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+#third {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.facebook {
+    display: inline-block;
+    width: 190px;
+    padding: 7px 10px 13px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    border: white solid 0.5px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+
+  .google {
+        display: inline-block;
+        width: 170px;
+        padding: 7px 20px 13px ;
+        background-color: rgb(18, 18, 18);
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+        border: white solid 0.5px;
+        margin-left: 40px;
+        padding: ;
+      }
+  }
+  
+  .button:hover {
+    background-color: #218838;
+  }
+
+  form {
+    width: 300px;
+    margin: 0 auto;
+    color: white;
+    margin-left:80px ;
+  }
+  
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-right: 30p;
+    
+  }
+  
+  .input-row .input-group {
+    width: 48%; /* Make sure the fields fit on the same line */
+    
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  #button-last {
+    padding: 10px 15px;
+    background-color: white;
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: black;
+    margin-left: 2px;
+    width: 375px;
+    height: 45px;
+  }
+  
+  #first-name, #last-name {
+    width: 180px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  #email {
+    width: 370px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  #password {
+    width: 370px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  #button-last:hover {
+    background-color: slategray;
+  }
+  input::placeholder {
+    color: gray;
+    font-size: 14px;
+    font-style: ;
+    font-size: large;
+    padding-left: 30px;
+  }
+
+  
